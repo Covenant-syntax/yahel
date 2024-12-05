@@ -4,16 +4,21 @@ import { useNavigate } from 'react-router-dom';
 
 const VideoPlayer = () => {
   const videoUrls = [
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part0.mp4?updatedAt=1733408001235',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part1.mp4?updatedAt=1733407937262',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part2.mp4?updatedAt=1733408003382',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part3.mp4?updatedAt=1733408033910',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part4.mp4?updatedAt=1733407973194',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part5.mp4?updatedAt=1733408121392',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part6.mp4?updatedAt=1733408121516',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part7.mp4?updatedAt=1733408138516',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part8.mp4?updatedAt=1733408137627',
-    'https://ik.imagekit.io/ftzirqnxf/Movie-clips/movie_part9.mp4?updatedAt=1733408151682',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439898/movie_part0_fywogd.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439798/movie_part1_zthard.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439953/movie_part2_m68i5o.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439960/movie_part3_wdcozj.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439868/movie_part4_tfckim.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439943/movie_part6_cvw5dg.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439935/movie_part7_nhbats.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439947/movie_part8_gzkstm.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439966/movie_part9_nnaewh.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439869/movie_part10_wl9lss.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439815/movie_part11_iwfhyc.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439730/movie_part12_wdggys.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439937/movie_part13_dwx9e2.mp4',
+    'https://res.cloudinary.com/dq3a6rfep/video/upload/v1733439821/movie_part14_lrng60.mp4',
+    ''
     // Add more parts if necessary
   ];
 
