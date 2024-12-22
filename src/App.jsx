@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Nav from './components/Nav';
 import VideoPlayer from './components/VideoPlayer';
+import AdComponent from './Components/AdComponenet';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
               <Nav />
               <Hero />
               <About />
+             
+      <AdComponent />
               <Gallery />
               <Buy />
               <Footer />
